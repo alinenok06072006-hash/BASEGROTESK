@@ -11,7 +11,7 @@ h2 {
     line-height: 99px;
 }
 
-/* все картинки на странице декоративные, ставлю их без top и left */
+/* все картинки на странице декоративные, ставлю их по top и left */
 img {
     position: absolute;
     display: block;
