@@ -1,0 +1,8 @@
+@import 'reset.css';
+@import 'layout.css';
+
+@font-face {
+    font-family: 'Base Grotesk';
+    src: url('../fonts/BaseGroteskVF.ttf');
+    font-weight: 100 900;
+}

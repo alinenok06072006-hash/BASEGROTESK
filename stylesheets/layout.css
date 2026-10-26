@@ -1,0 +1,871 @@
+body {
+    font-family: 'Base Grotesk';
+    margin: 0;
+    color: #215338;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 99px;
+}
+
+/* все картинки на странице декоративные, ставлю их без top и left */
+img {
+    position: absolute;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+.site {
+    position: relative;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.about, .creation, .weights, .style, .features, .usage, .list, .traits, .set, .box, .credits {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* шапка */
+
+.hero {
+    position: relative;
+    height: 699px;
+    padding-top: 208px;
+    padding-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 9px;
+    background-color: #fee23a;
+}
+
+.columns {
+    top: 59px;
+    left: 33px;
+}
+
+.lines1 {
+    top: 213px;
+    left: 137px;
+}
+
+.lines2 {
+    top: 213px;
+    left: 203px;
+}
+
+.title {
+    position: relative;
+    font-size: 130px;
+    font-weight: 900;
+    line-height: 140px;
+    text-align: center;
+}
+
+.subtitle {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -1%;
+    text-align: center;
+}
+
+/* о шрифте */
+
+.about {
+    position: relative;
+    height: 726px;
+    margin: 115px 33px 0;
+    padding-top: 102px;
+    background-color: #215338;
+    border-radius: 90px;
+}
+
+.about h2 {
+    position: relative;
+    color: #ffffff;
+}
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    margin-left: 234px;
+}
+
+.card {
+    position: relative;
+    width: 491px;
+    height: 322px;
+    margin-top: 8px;
+    padding: 36px 26px 0 36px;
+    background-color: #ffa7af;
+    border-radius: 41px;
+    outline: 10px solid #215338;
+}
+
+.card p {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 1%;
+}
+
+.card2 {
+    width: 492px;
+    height: 324px;
+    margin-top: -145px;
+    margin-left: 393px;
+    background-color: #ffffff;
+}
+
+.coin1 {
+    top: 283px;
+    left: -33px;
+}
+
+.coin2 {
+    top: 442px;
+    left: 1036px;
+}
+
+.coin3 {
+    top: 42px;
+    left: 49px;
+}
+
+.rub1 {
+    top: 77px;
+    left: 94px;
+}
+
+.five1 {
+    top: 327px;
+    left: -26px;
+}
+
+.coin4 {
+    top: 253px;
+    left: 838px;
+}
+
+.dollar1 {
+    top: 479px;
+    left: 1092px;
+}
+
+.coin5 {
+    top: 635px;
+    left: 862px;
+}
+
+.euro1 {
+    top: 680px;
+    left: 909px;
+}
+
+.two1 {
+    top: 295px;
+    left: 909px;
+}
+
+/* создание */
+
+.creation {
+    margin-top: 101px;
+    padding-left: 78px;
+}
+
+.text {
+    margin-top: 14px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.text2 {
+    margin-top: 12px;
+}
+
+/* начертания */
+
+.weights {
+    position: relative;
+    height: 877px;
+    margin-top: 105px;
+    padding-top: 93px;
+    background-color: #fee23a;
+}
+
+.weights h2 {
+    margin-left: 76px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 393px 398px auto;
+}
+
+.row1 {
+    margin-top: 51px;
+    margin-left: 77px;
+}
+
+.row2 {
+    margin-top: 66px;
+    margin-left: 76px;
+    grid-template-columns: 395px 399px auto;
+}
+
+.row3 {
+    margin-top: 65px;
+    margin-left: 80px;
+}
+
+.name {
+    font-size: 28px;
+    line-height: 43px;
+}
+
+.word {
+    font-size: 70px;
+    line-height: 99px;
+}
+
+.style1 .name {
+    margin-left: 5px;
+}
+
+.style1 .word {
+    margin-top: -2px;
+    font-weight: 100;
+    letter-spacing: -1%;
+}
+
+.style2 .name, .style3 .name {
+    margin-top: 1px;
+    margin-left: 4px;
+}
+
+.style2 .word {
+    margin-top: -3px;
+    font-weight: 200;
+}
+
+.style3 .word {
+    margin-top: -3px;
+    font-weight: 300;
+}
+
+.style4 .name {
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.style4 .word {
+    margin-top: -8px;
+    font-weight: 400;
+}
+
+.style5 .name {
+    margin-left: 3px;
+}
+
+.style5 .word {
+    margin-top: -5px;
+    font-weight: 500;
+    letter-spacing: -1%;
+}
+
+.style6 .name {
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+.style6 .word {
+    margin-top: -9px;
+    font-weight: 600;
+}
+
+.style7 .word {
+    margin-top: -5px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.style8 .name {
+    margin-left: 4px;
+}
+
+.style8 .word {
+    margin-top: -5px;
+    font-weight: 800;
+    letter-spacing: -1%;
+}
+
+.style9 .name {
+    margin-top: 4px;
+}
+
+.style9 .word {
+    margin-top: -9px;
+    margin-left: 3px;
+    font-weight: 900;
+}
+
+.pig {
+    top: -501px;
+    left: 597px;
+}
+
+.shard1 {
+    top: -479px;
+    left: 627px;
+}
+
+.shard2 {
+    top: -384px;
+    left: 561px;
+}
+
+.line1 {
+    top: 223px;
+    left: 82px;
+}
+
+.line2 {
+    top: 223px;
+    left: 401px;
+}
+
+.line3 {
+    top: 224px;
+    left: 477px;
+}
+
+.line4 {
+    top: 224px;
+    left: 875px;
+}
+
+.line5 {
+    top: 428px;
+    left: 84px;
+}
+
+.line6 {
+    top: 428px;
+    left: 477px;
+}
+
+.line7 {
+    top: 428px;
+    left: 799px;
+}
+
+.line8 {
+    top: 428px;
+    left: 875px;
+}
+
+.line9 {
+    top: 632px;
+    left: 83px;
+}
+
+.line10 {
+    top: 632px;
+    left: 405px;
+}
+
+.line11 {
+    top: 632px;
+    left: 480px;
+}
+
+.line12 {
+    top: 632px;
+    left: 799px;
+}
+
+.line13 {
+    top: 632px;
+    left: 875px;
+}
+
+.line14 {
+    top: 632px;
+    left: 1195px;
+}
+
+/* особенности */
+
+.features {
+    margin-top: 70px;
+}
+
+.features h2 {
+    margin-left: 659px;
+}
+
+.panel {
+    position: relative;
+    width: 1214px;
+    height: 789px;
+    margin-top: 24px;
+    margin-left: 32px;
+    padding-top: 623px;
+    background-color: #215338;
+}
+
+.captions {
+    display: flex;
+    align-items: flex-start;
+}
+
+.caption {
+    position: relative;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+}
+
+.caption1 {
+    margin-left: 84px;
+    letter-spacing: 2%;
+}
+
+.caption2 {
+    margin-left: 172px;
+}
+
+.caption3 {
+    margin-left: 162px;
+    letter-spacing: -2%;
+}
+
+.letter1 {
+    top: 251px;
+    left: 53px;
+}
+
+.letter2 {
+    top: 116px;
+    left: 465px;
+}
+
+.letter3 {
+    top: 250px;
+    left: 892px;
+}
+
+/* применение */
+
+.usage {
+    position: relative;
+    height: 615px;
+    margin-top: 70px;
+}
+
+.usage h2 {
+    margin-left: 76px;
+}
+
+.list {
+    position: relative;
+    width: 761px;
+    height: 452px;
+    margin-top: 24px;
+    padding: 116px 0 0 80px;
+    gap: 20px;
+    background-color: #215338;
+}
+
+.list p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.item3, .item4 {
+    margin-top: 1px;
+}
+
+.item4 {
+    margin-left: 2px;
+}
+
+.yellow1 {
+    top: 91px;
+    left: 712px;
+}
+
+.green1 {
+    top: 123px;
+    left: 749px;
+}
+
+.frame1 {
+    top: 151px;
+    left: 23px;
+}
+
+.dollar2 {
+    top: 232px;
+    left: 571px;
+}
+
+.circle1 {
+    top: 195px;
+    left: 485px;
+}
+
+.door1 {
+    top: 122px;
+    left: 774px;
+}
+
+.door2 {
+    top: 122px;
+    left: 791px;
+}
+
+.dial {
+    top: 205px;
+    left: 865px;
+}
+
+.dot1 {
+    top: 285px;
+    left: 940px;
+}
+
+.dot2 {
+    top: 285px;
+    left: 962px;
+}
+
+.hinge1 {
+    top: 175px;
+    left: 1176px;
+}
+
+.hinge2 {
+    top: 512px;
+    left: 1176px;
+}
+
+/* характер шрифта */
+
+.traits {
+    position: relative;
+    height: 668px;
+    margin-top: 154px;
+}
+
+.traits p {
+    position: relative;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.trait1 {
+    margin-left: 81px;
+}
+
+.trait2 {
+    margin-top: -40px;
+    margin-left: 765px;
+}
+
+.trait3 {
+    margin-top: 19px;
+    margin-left: 441px;
+}
+
+.trait4 {
+    margin-top: 138px;
+    margin-left: 81px;
+}
+
+.trait5 {
+    margin-top: 81px;
+    margin-left: 498px;
+}
+
+.trait6 {
+    margin-top: 176px;
+    margin-left: 936px;
+}
+
+.trait7 {
+    margin-top: -35px;
+    margin-left: 171px;
+}
+
+.bar1 {
+    top: 150px;
+    left: 617px;
+}
+
+.bar2 {
+    top: 496px;
+    left: 409px;
+}
+
+.bar3 {
+    top: 5px;
+    left: 1073px;
+}
+
+.bar4 {
+    top: 351px;
+    left: 907px;
+}
+
+.bar5 {
+    top: 80px;
+    left: 0;
+}
+
+.bar6 {
+    top: 357px;
+    left: 0;
+}
+
+.star1 {
+    top: 326px;
+    left: 1111px;
+}
+
+.star2 {
+    top: 378px;
+    left: 33px;
+}
+
+.star3 {
+    top: 68px;
+    left: 654px;
+}
+
+.star4 {
+    top: 388px;
+    left: 951px;
+}
+
+.star5 {
+    top: 62px;
+    left: 1112px;
+}
+
+.star6 {
+    top: 93px;
+    left: 286px;
+}
+
+.star7 {
+    top: 220px;
+    left: 409px;
+}
+
+.star8 {
+    top: 518px;
+    left: 441px;
+}
+
+/* языки */
+
+.languages {
+    position: relative;
+    height: 789px;
+    margin: 139px 34px 0 32px;
+    padding-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #215338;
+}
+
+.languages h2 {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+}
+
+.coin6 {
+    top: 126px;
+    left: -32px;
+}
+
+.coin7 {
+    top: 525px;
+    left: 997px;
+}
+
+.coin8 {
+    top: 410px;
+    left: 621px;
+}
+
+.two2 {
+    top: 460px;
+    left: 696px;
+}
+
+.coin9 {
+    top: 506px;
+    left: -32px;
+}
+
+.ten {
+    top: 556px;
+    left: -32px;
+}
+
+.note1 {
+    top: 244px;
+    left: -32px;
+}
+
+.note2 {
+    top: 520px;
+    left: 627px;
+}
+
+.note3 {
+    top: 505px;
+    left: 81px;
+}
+
+.note4 {
+    top: 283px;
+    left: 787px;
+}
+
+.coin10 {
+    top: 147px;
+    left: 1030px;
+}
+
+.dollar3 {
+    top: 346px;
+    left: 54px;
+}
+
+.dollar4 {
+    top: 619px;
+    left: 821px;
+}
+
+.dollar5 {
+    top: 381px;
+    left: 985px;
+}
+
+.dollar6 {
+    top: 618px;
+    left: 281px;
+}
+
+.note5 {
+    top: 361px;
+    left: 177px;
+}
+
+.dollar7 {
+    top: 462px;
+    left: 374px;
+}
+
+/* набор */
+
+.set {
+    position: relative;
+    height: 1155px;
+    margin-top: 184px;
+    padding-top: 170px;
+    background-color: #fee23a;
+}
+
+.set h2 {
+    margin-left: 539px;
+}
+
+.box {
+    position: relative;
+    width: 1011px;
+    height: 771px;
+    margin-left: 186px;
+    padding: 81px 0 0 161px;
+    gap: 24px;
+    background-color: #ffffff;
+    border-radius: 130px;
+}
+
+.box p {
+    position: relative;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: -7%;
+}
+
+.arrow {
+    top: 406px;
+    left: 16px;
+}
+
+.tab {
+    top: 115px;
+    left: 464px;
+}
+
+.man {
+    top: 132px;
+    left: 0;
+}
+
+.handle {
+    top: 806px;
+    left: 0;
+}
+
+.case {
+    top: 860px;
+    left: 0;
+}
+
+.hat {
+    top: 115px;
+    left: 84px;
+}
+
+/* подпись */
+
+.credits {
+    margin-top: 54px;
+    padding: 0 0 56px 849px;
+    gap: 3px;
+}
+
+.credits p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.curator {
+    margin-left: -1px;
+}
